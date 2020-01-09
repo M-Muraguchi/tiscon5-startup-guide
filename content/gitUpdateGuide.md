@@ -23,7 +23,7 @@ IntelliJで `VCS` > `Git` > `Remotes` をクリック。
 
 ![IntelliJでGit Remotesを開く](../image/intellij_git_remotes.png)
 
-nameに `tiscon` 、 URLに `https://github.com/tiscon/tiscon4.git` と入力してOKをクリック。
+nameに `tiscon` 、 URLに `https://github.com/tiscon/tiscon5.git` と入力してOKをクリック。
 
 ![IntelliJでRemote追加](../image/intellij_git_remotes_add.png)
 
@@ -38,6 +38,6 @@ tisconのmasterブランチをローカルのmasterブランチにダウンロ�
 [ローカルリポジトリの内容をアップロードpushする | Gitルーキートラの巻 :tiger:](gitForRookies.md#ローカルリポジトリの内容をアップロードpushする)と同様の手順で、originリポジトリに変更をPushしてください。
 
 ## チームメンバーのリポジトリの更新を自分のリポジトリに取り込みたい
-1. [本家リポジトリを参照できるようにする( `git remote add` )](#本家リポジトリを参照できるようにする-git-remote-add-) と同じ手順で、更新を取り込みたいチームメンバーのリポジトリを参照できるようにします。その時、登録するURLは `https://github.com/更新を取り込みたいチームメンバーのGitHubアカウント名/tiscon4.git` で、その時の登録名はそのメンバーのGitHubアカウント名にしましょう。
+1. [本家リポジトリを参照できるようにする( `git remote add` )](#本家リポジトリを参照できるようにする-git-remote-add-) と同じ手順で、更新を取り込みたいチームメンバーのリポジトリを参照できるようにします。その時、登録するURLは `https://github.com/更新を取り込みたいチームメンバーのGitHubアカウント名/tiscon5.git` で、その時の登録名はそのメンバーのGitHubアカウント名にしましょう。
 1. [リモートリポジトリの内容をダウンロード(Pull)する | Gitルーキートラの巻 :tiger:](gitForRookies.md#リモートリポジトリの内容をダウンロードpullする)と同様の手順でダウンロードしてください。その時、ダウンロード元のリモートリポジトリは、更新を取り込みたいチームメンバーのものを選択してください。
 1. [ローカルリポジトリの内容をアップロードpushする | Gitルーキートラの巻 :tiger:](gitForRookies.md#ローカルリポジトリの内容をアップロードpushする)と同様の手順で、originリポジトリに変更をPushしてください。
