@@ -18,7 +18,7 @@
 
 ### 1. IntelliJでプロジェクトをcloneする
 
-1. IntelliJを起動し、 `Check out from Version Control > Git` を選択します。
+1. IntelliJを起動し、 `Get from Version Control` を選択します。
 1. URLに `https://github.com/tiscon/tiscon5.git` を入力します。<br>
 Directoryには自動で`C:\Users\[ユーザ名]\IdeaProjects\tiscon5`が設定されます。<br>
 ![クローン](../image/intelliJ_cloneRepository.png)
