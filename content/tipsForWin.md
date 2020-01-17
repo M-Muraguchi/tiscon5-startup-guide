@@ -31,16 +31,16 @@
 </p>
 
 開いた **Mavenメニュー** よりダイアログを開きます。<br/>
-（以前に入力したコマンドがCommand line欄に残っている場合がありますが、消して問題ありません。）
 <p>
     <img src="../image/intellij_opened_maven.png" width="600" />
 </p>
 <p>
-    <img src="../image/intellij_maven_gsp_command.png" width="600" />
+    <img src="../image/intellij_maven_command.png" width="600" />
 </p>
 
-開いたダイアログのCommand lineに実行したいコマンドを入力します。<br/>
-**[Execute]** ボタンを押しコマンドを実行します。
+開いたダイアログに実行したいコマンドを入力します。<br/>
+また、この時に元々書かれていた `mvn` は消さないよう注意してください。<br/>
+最後にEnterキーを押しコマンドを実行します。
 
 ### propertiesファイルを日本語で表示する
 下記サイトを参考に、propertiesファイルを日本語で表示してください。
