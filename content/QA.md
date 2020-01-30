@@ -54,6 +54,20 @@ tiscon5が使っている別プログラムが読み込めていないかもし�
 1. IntelliJ の画面右下に「Resolving Maven Dependencies...」というようなメッセージと一緒に進行度合いを示すバーが表示されるので、それが消えるまで待ってください。
 1. これでプログラムの再読込ができました。再度動作確認をしてみてください。
 
+## JDKが設定されていない
+IntelliJで「Project JDK is not specified」と出ている場合、JDKの設定がされていません。
+[File] → [Project Structure]をクリックしてProject Structureを開いてください。
+
+![Project Structureを開く](../image/qa_project_structure.png)
+
+Project SDKが<No SDK>になっていたら、今回のインストールしたJavaのversionに合わせて変更をしてください。
+
+![JDKを設定](../image/qa_set_jdk.png)
+
+なお、プルダウンで選択したいversionが出てこない場合は[New...]より、今回インストールしたJavaのディレクトリを選択してください。
+
+![新しいJDKを設定](../image/qa_new_jdk.png)
+
 ### 解決しない場合
 スタッフに問い合わせてください。その際、
 
