@@ -60,7 +60,7 @@ IntelliJで「Project JDK is not specified」と出ている場合、JDKの設�
 
 ![Project Structureを開く](../image/qa_project_structure.png)
 
-Project SDKが<No SDK>になっていたら、今回のインストールしたJavaのversionに合わせて変更をしてください。
+Project SDKが `<No SDK>` になっていたら、今回のインストールしたJavaのversionに合わせて変更をしてください。
 
 ![JDKを設定](../image/qa_set_jdk.png)
 
