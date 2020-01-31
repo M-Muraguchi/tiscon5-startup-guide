@@ -4,6 +4,7 @@
 * [IntelliJでのプロジェクトのcloneができない](#intellijでのプロジェクトのcloneができない)
 * [IntelliJのフォルダ表示と実際のフォルダ表示が違う](#intellijのフォルダ表示と実際の内容が違う)
 * [動作確認していると ClassCastException が出る](#動作確認していると-classcastexception-が出る)
+* [Webアプリケーションの起動確認で「Project JDK is not specified」とエラーが表示される](#Webアプリケーションの起動確認で「Project-JDK-is-not-specified」とエラーが表示される)
 
 ***
 
@@ -54,8 +55,8 @@ tiscon5が使っている別プログラムが読み込めていないかもし�
 1. IntelliJ の画面右下に「Resolving Maven Dependencies...」というようなメッセージと一緒に進行度合いを示すバーが表示されるので、それが消えるまで待ってください。
 1. これでプログラムの再読込ができました。再度動作確認をしてみてください。
 
-## JDKが設定されていない
-IntelliJで「Project JDK is not specified」と出ている場合、JDKの設定がされていません。
+## Webアプリケーションの起動確認で「Project JDK is not specified」とエラーが表示される
+「Project JDK is not specified」とエラーが表示される場合、JDKの設定がされていません。
 [File] → [Project Structure]をクリックしてProject Structureを開いてください。
 
 ![Project Structureを開く](../image/qa_project_structure.png)
